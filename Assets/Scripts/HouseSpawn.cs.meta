@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 53ef9885ffbea694db8d8f7ab7b6e415
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - generator: {instanceID: 0}
+  - lightmat: {fileID: 2100000, guid: 759f929b4a841474caff32e525ed26c0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

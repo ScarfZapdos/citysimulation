@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8848938793017939376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8848938793017939382}
+  - component: {fileID: 8848938793017939383}
+  m_Layer: 0
+  m_Name: Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8848938793017939382
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848938793017939376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8848938793017939383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848938793017939376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cd8a61985d345d45837bfa5b750c5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  land: {fileID: 2100000, guid: c3b5b4c67c6569e49bb30903918f961a, type: 2}
+  freqx: 0.02
+  freqy: 0.018
+  offsetx: 0.43
+  offsety: 0.22
+  route: {fileID: 8369265500617294123, guid: ca2a1a27b38af8946a022fcf1cabdddd, type: 3}
+  house: {fileID: 7283853982395883646, guid: 3974c00bf73f62d4b8d976ac6e84dbb7, type: 3}
+  skyscraper1: {fileID: 984737220211638426, guid: ff111d0ac6750d94bad6751c385f5e65,
+    type: 3}
+  skyscraper2: {fileID: 2647531006779152807, guid: 00544ab5c1d37f34b92d7fff221486db,
+    type: 3}
+  skyscraper3: {fileID: 6562295943936467299, guid: b214dfa0335049344872a50dbfb4ea54,
+    type: 3}
+  citizen: {fileID: 5003578740356439853, guid: 2682cbc1b2299c441bfe1d03612ba843, type: 3}
+  city: {fileID: 0}
+  skyscrapers: []
+  officeBuilding: []
